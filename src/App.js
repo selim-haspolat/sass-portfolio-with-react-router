@@ -6,6 +6,7 @@ import Projects from "./pages/projects/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import './scss/_reset.scss'
+import Error from "./pages/error/Error";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer/>
     </div>

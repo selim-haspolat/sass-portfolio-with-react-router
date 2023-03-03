@@ -1,0 +1,22 @@
+.notfound {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.notfound h2{
+    font-size: 4rem;
+}
+
+.btn-div{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn-div button {
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
