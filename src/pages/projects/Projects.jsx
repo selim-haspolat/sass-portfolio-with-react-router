@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="projects__items">
           {imageData.map((i) => (
             <div className="projects__item">
-              <img src={i.image} alt="My Project" />
+              <img src={i} alt="My Project" />
             </div>
           ))}
         </div>

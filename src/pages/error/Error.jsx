@@ -1,13 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import "./error.scss";
 
 const Error = () => {
+
+  const navigate = useNavigate()
 
   return (
     <div className="notfound">
       <h2>404 NOT FOUND</h2>
       <div className="btn-div">
-        <button >go home</button>
-        <button >go back</button>
+        <button onClick={() => navigate('/')}>go home</button>
+        <button onClick={() => navigate(-1)}>go back</button>
       </div>
     </div>
   );

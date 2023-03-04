@@ -5,11 +5,4 @@ import img4 from "../assets/img/project-4.jpg";
 import img5 from "../assets/img/project-5.jpg";
 import img6 from "../assets/img/project-6.jpg";
 
-export const imageData = [
-  { image: img1 },
-  { image: img2 },
-  { image: img3 },
-  { image: img4 },
-  { image: img5 },
-  { image: img6 },
-];
+export const imageData = [img1, img2, img3, img4, img5, img6];
