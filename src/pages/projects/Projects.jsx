@@ -15,8 +15,8 @@ const Projects = () => {
       {/* PROJECT MAIN */}
       <main className="projects">
         <div className="projects__items">
-          {imageData.map((i) => (
-            <div className="projects__item">
+          {imageData.map((i,indx) => (
+            <div key={indx} className="projects__item">
               <img src={i} alt="My Project" />
             </div>
           ))}
