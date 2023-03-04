@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -5,28 +6,30 @@ const Navbar = () => {
     <nav className="nav">
       <ul className="nav__list">
         <li className="nav__item">
-          <a to="/" className="nav__link">
+          <Link to="/" className="nav__link">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a to="/about" className="nav__link nav__link--active">
+          <Link to="/about" className="nav__link ">
             About Me
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a to="/projects" className="nav__link">
+          <Link to="/projects" className="nav__link">
             My Projects
-          </a>
+          </Link>
         </li>
         <li className="nav__item">
-          <a to="/contact" className="nav__link">
+          <Link to="/contact" className="nav__link">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
   );
 };
+
+// nav__link--active
 
 export default Navbar;
