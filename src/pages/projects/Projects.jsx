@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 const Projects = () => {
   return (
     <div>
-      <Navbar/>
+
       <div className="project-bgImg-container">
         <div className="projects__bio-image">
           <h1>My Projects</h1>
@@ -22,7 +22,7 @@ const Projects = () => {
           ))}
         </div>
       </main>
-      <Footer/>
+
     </div>
   );
 };
