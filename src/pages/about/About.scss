@@ -2,7 +2,6 @@
 @import './../../scss/_variables.scss';
 
 .about-bgImg-container{
-    @include bgImg(50vh, $main-bgImg-path);
     display: flex;
     flex-direction: column;
     justify-content: space-between;

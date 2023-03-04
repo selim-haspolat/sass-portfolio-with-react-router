@@ -1,8 +1,11 @@
 import './About.scss'
+import Navbar from './../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 const About = () => {
   return (
     <div>
+      <Navbar/>
         <div className="about-bgImg-container">
           <div className="about__bio-image">
             <h2>BIO</h2>
@@ -46,6 +49,7 @@ const About = () => {
             </div>
           </div>
         </main>
+        <Footer/>
       </div>
   )
 }

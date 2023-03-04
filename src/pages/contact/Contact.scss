@@ -3,7 +3,6 @@
 
 
 .contact-bgImg-container{
-    @include bgImg(100vh, $main-bgImg-path);
     nav{
         // border:2px solid red;
         height: 40vh;

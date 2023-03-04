@@ -1,7 +1,11 @@
+import Footer from '../../components/Footer/Footer'
+import Navbar from '../../components/Navbar/Navbar'
 import './Contact.scss'
 
 const Contact = () => {
   return (
+    <>
+    <Navbar/>
     <div className="contact-bgImg-container">
         {/* CONTACT MAIN */}
         <main className="contact">
@@ -22,6 +26,8 @@ const Contact = () => {
           </div>
         </main>
       </div>
+      <Footer/>
+    </>
   )
 }
 
